@@ -1,0 +1,17 @@
+This is a simple Apache Maven site skin that is designed
+to match the Juice, Inc. style. To use this skin for your
+Maven project site, you will need to add a reference to
+this juice-maven-skin artifact in your project's site descriptor. A site
+references a skin in the site descriptor using the skin element:
+
+<project name="A Project">
+  ...
+  <skin>
+    <groupId>org.juicekit.skins</groupId>
+    <artifactId>juice-maven-skin</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </skin>
+  ...
+</project>
+
+You can refer to this projects src/site/site.xml for an example.
