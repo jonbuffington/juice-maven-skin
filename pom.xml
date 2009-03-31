@@ -39,6 +39,19 @@
     <url>http://www.juiceanalytics.com/</url>
   </organization>
 
+  <developers>
+    <developer>
+      <id>jon.buffington</id>
+      <name>Jon Buffington</name>
+      <email>jon.buffington [at] juiceanalytics.com</email>
+    </developer>
+    <developer>
+      <id>chris.gemignani</id>
+      <name>Chris Gemignani</name>
+      <email>chris.gemignani [at] juiceanalytics.com</email>
+    </developer>
+  </developers>
+
   <licenses>
     <license>
       <name>The Apache License, ASL Version 2.0</name>
