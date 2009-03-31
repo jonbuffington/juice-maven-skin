@@ -63,10 +63,6 @@
       <id>releases</id>
       <url>http://juicekit.org/nexus/content/repositories/releases</url>
     </repository>
-    <site>
-      <id>website</id>
-      <url>scpexe://www.juicekit.org/var/www/</url>
-    </site>
   </distributionManagement>
 
   <ciManagement>
@@ -78,15 +74,5 @@
     <system>JIRA</system>
     <url>http://www.juicekit.org/jira/</url>
   </issueManagement>
-
-  <mailingLists>
-    <mailingList>
-      <name>General Discussion</name>
-      <subscribe>juicekit+subscribe@googlegroups.com</subscribe>
-      <unsubscribe>juicekit+unsubscribe@googlegroups.com</unsubscribe>
-      <post>juicekit@googlegroups.com</post>
-      <archive>http://groups.google.com/group/juicekit</archive>
-    </mailingList>
-  </mailingLists>
 
 </project>
