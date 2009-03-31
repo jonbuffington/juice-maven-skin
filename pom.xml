@@ -26,7 +26,7 @@
 
 	<groupId>org.juicekit.skins</groupId>
 	<artifactId>juice-maven-skin</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
 
   <inceptionYear>2009</inceptionYear>
 
