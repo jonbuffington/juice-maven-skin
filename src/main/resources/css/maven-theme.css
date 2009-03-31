@@ -21,19 +21,27 @@
 
 body {
   background-color: #fff;
-  font-family: Verdana, Helvetica, Arial, sans-serif;
+  background-repeat: repeat-y;
+  color: #333;
+  font-family: Georgia, serif;
+  font-size: 12px;
   margin-left: auto;
   margin-right: auto;
-  background-repeat: repeat-y;
-  font-size: 13px;
-  padding: 0px;
+}
+h1,h2,h3,h4,h5,h6 {
+  border: 0 solid white;
+  color: #009900;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  margin: 0.5em 0 0;
+  padding: 0;
 }
 td, select, input, li{
-  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
-  color:#333333;
 }
 code{
+  font-family: monospace;
   font-size: 12px;
 }
 a {
@@ -46,7 +54,7 @@ a:visited {
   color:#68a;
 }
 a:active, a:hover {
-  color:#990000;
+  color: #0054aa;
 }
 #legend li.externalLink {
   background: url(../images/external.png) left top no-repeat;
@@ -64,104 +72,76 @@ a.newWindow, a.newWindow:link, a.newWindow:visited, a.newWindow:active, a.newWin
   background: url(../images/newwindow.png) right center no-repeat;
   padding-right: 18px;
 }
-h2 {
-  font-size: 17px;
-  color: #333333;
-}
-h3 {
-  padding: 4px 4px 4px 24px;
-  color: #666;
-  background-color: #ccc;
-  font-weight: bold;
-  font-size: 14px;
-  background-image: url(../images/h3.jpg);
-  background-repeat: no-repeat;
-  background-position: left bottom;
-}
 p {
-  line-height: 1.3em;
-  font-size: 12px;
-  color: #000;
+  line-height: 1.1em;
+  margin-bottom: 1em;
+  margin-top: 0;
 }
 #breadcrumbs {
-  height: 13px;
-  background-image: url(../images/breadcrumbs.jpg);
-  padding: 5px 10px 14px 20px;
-}
-* html #breadcrumbs {
-  padding-bottom: 8px;
+  background-color: #ddddff;
+  color: #666;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.0em;
+  padding: 10px 20px;
 }
 #leftColumn {
-  margin: 10px 0 10px 0;
-  border-top-color: #ccc;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-right-color: #ccc;
-  border-right-style: solid;
-  border-right-width: 1px;
-  border-bottom-color: #ccc;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 1px;
+  background-repeat: repeat;
+  background-image: url(../images/stripe.png);
   padding-right: 5px;
   padding-left: 5px;
 }
 #navcolumn h5 {
-  font-size: smaller;
   border-bottom: 1px solid #aaaaaa;
-  padding-top: 2px;
-  padding-left: 9px;
-  color: #49635a;
-  background-image: url(../images/h5.jpg);
-  background-repeat: no-repeat;
-  background-position: left bottom;
+  padding-top: 4px;
+  padding-left: 10px;
 }
-
+#navcolumn ul {
+  line-height: 1.5em;
+  margin: 5px 0 15px 0;
+}
+#navcolumn ul a {
+  color: #333333;
+}
+#navcolumn ul a:hover {
+  color: #191919;
+}
 table.bodyTable th {
-  color: white;
   background-color: #bbb;
-  text-align: left;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
+  text-align: left;
 }
-
 table.bodyTable th, table.bodyTable td {
-  font-size: 11px;
+  font-size: 12px;
 }
-
 table.bodyTable tr.a {
   background-color: #ddd;
 }
-
 table.bodyTable tr.b {
   background-color: #eee;
 }
-
 table.bodyTable tr.a:hover, table.bodyTable tr.b:hover {
   background: #dfe3db;
 }
-
 .source {
-  border: 1px solid #999;
+  border: 1px solid #e6e6e6;
+  border-left-style: none;
+  border-right-style: none;
   overflow:auto
 }
 dt {
-  padding: 4px 4px 4px 24px;
-  color: #333333;
-  background-color: #ccc;
+  background: #ccc no-repeat left bottom;
   font-weight: bold;
-  font-size: 14px;
-  background-image: url(../images/h3.jpg);
-  background-repeat: no-repeat;
-  background-position: left bottom;
+  padding: 4px 4px 4px 24px;
 }
 .subsectionTitle {
+  color: #666;
   font-size: 13px;
   font-weight: bold;
-  color: #666;
-
-}
-
-table {
-  font-size: 10px;
 }
 .xright a:link, .xright a:visited, .xright a:active {
   color: #666;
@@ -169,39 +149,24 @@ table {
 .xright a:hover {
   color: #003300;
 }
-#banner {
-  height: 93px;
-  background: url(../images/banner.jpg);
-}
-#navcolumn ul {
-  margin: 5px 0 15px -0em;
-}
-#navcolumn ul a {
-  color: #333333;
-}
-#navcolumn ul a:hover {
-  color: red;
-}
 #intro {
   border: solid #ccc 1px;
-  margin: 6px 0px 0px 0px;
+  margin: 6px 0 0 0;
   padding: 10px 40px 10px 40px;
 }
 .subsection {
   margin-left: 3px;
   color: #333333;
 }
-
 .subsection p {
   font-size: 12px;
 }
 #footer {
-  padding: 10px;
-  margin: 20px 0px 20px 0px;
   border-top: solid #ccc 1px;
-  color: #333333;
+  color: #808080;
+  margin: 20px 0 20px 0;
+  padding: 10px;
 }
-
 .errormark, .warningmark, .donemark, .infomark {
   background: url(../images/icon_error_sml.gif) no-repeat;
 }
