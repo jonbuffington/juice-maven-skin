@@ -21,7 +21,9 @@
   * *************************************************************************
   -->
 
-<project>
+<project xmlns="http://maven.apache.org/DECORATION/1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/DECORATION/1.0.0 http://maven.apache.org/xsd/decoration-1.0.0.xsd">
   <bannerLeft>
     <name>${project.name}</name>
     <src>http://media.juiceanalytics.com/media/images/logo_transparent_background.png</src>
@@ -37,6 +39,6 @@
   <skin>
     <groupId>org.juicekit.skins</groupId>
     <artifactId>juice-maven-skin</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
   </skin>
 </project>
